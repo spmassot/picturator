@@ -1,0 +1,12 @@
+version: "3.6"
+
+services:
+  draw:
+    build:
+      context: .
+      target: release
+    command: bash -c "python3 draw.py"
+    volumes:
+      - ./app:/app
+    stdin_open: true
+    tty: true
