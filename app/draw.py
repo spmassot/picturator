@@ -1,7 +1,7 @@
-from drawers.bw_drawer import BWDrawer
-from drawers.color_drawer import ColorDrawer
+from drawers.wiggle_drawer_A import WiggleDrawerA
 
 
 if __name__ == '__main__':
-    p = ColorDrawer()
-    p.draw()
+    for i in range(20):
+        p = WiggleDrawerA(8000)
+        p.draw()

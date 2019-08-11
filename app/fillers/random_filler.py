@@ -1,5 +1,3 @@
-import math
-
 from .filler import Filler
 from random import randint as r
 
